@@ -141,7 +141,22 @@ select * from users
 -- case2 update datatype cho column 
 alter table users 
 modify column full_name varchar(100) not null 
+/*
+b1 git status(kiểm tra các file ,folder code đã change)
+b2 git add . (thêm tất cả các file code vào commit)
+b3 git commit -m "message" (commit code)
+b4 git push origin <ten branch > (đẩy code lên github)
+b5 git checkout -b <ten branch > main (chuyển branch)
+b6 git push origin <ten branch > (đẩy nhánh mới lên github)
+*/
 
+/*
+*các bước để tạo source expressJS 
+b1 npm init để tạo file package,json
+b2 cài thư viện express
+npm i express 
+b3 tạo file index.js để chứa toàn bộ code của BE 
+*/
 
 
 
